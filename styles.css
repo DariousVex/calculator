@@ -1,3 +1,16 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  * }
+  font-size: 1.5rem;
+}
+.number-pad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+main .calculator .number-pad input {
+  width: 100px;
+}
