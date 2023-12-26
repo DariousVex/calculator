@@ -30,6 +30,11 @@ body {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+.history {
+  height: 200px;
+  text-align: right;
+}
 .number-pad {
   display: flex;
   flex-direction: row;
